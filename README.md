@@ -10,7 +10,7 @@ It was developed for use with the Emacs text editor.
 
 The summary is stored in the annote field in the BibTeX entry in the BibTeX file, like in the example below:
 
-[Screenshot 2024-08-17 at 1 36 04 PM](https://github.com/user-attachments/assets/447df2ef-bf02-49bc-a86f-ad3ee843e233)
+![Screenshot 2024-08-17 at 1 36 04 PM](https://github.com/user-attachments/assets/447df2ef-bf02-49bc-a86f-ad3ee843e233)
 
 
 This file was opened in Emacs.
