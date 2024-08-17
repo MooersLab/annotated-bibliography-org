@@ -32,6 +32,7 @@ I have also attached an Emacs configuration file (*init.el*) for working with ma
 This configuration includes the Vertico-Orderless-Corfu-Cape-Consult-Embark auto-completion stack, org-ref for managing bibliographies, and pdf-tools for viewing PDFs inside Emacs.
 This configuration depends on a handful of external packages.
 The *init.el* file takes 2-3 seconds to load. 
+You will have to edit some file paths.
 
 I swamped the *option* and *command keys* because I use the command key for the Meta key.
 I did not include org-agenda or org-roam.
