@@ -8,9 +8,10 @@ An annotated bibliography is used to summarize notes about papers being read dur
 Org-mode is an enhanced markup language that supports the writing of scientific manuscripts.
 It was developed for use with the Emacs text editor.
 
-The summary is stored in the annote field in the BibTeX entry in the BibTeX file, like in the example below.
+The summary is stored in the annote field in the BibTeX entry in the BibTeX file, like in the example below:
 
-![Screenshot 2024-08-17 at 1 30 54 PM](https://github.com/user-attachments/assets/719987b5-5324-48bf-97f4-d8ec172d8c6a)
+[Screenshot 2024-08-17 at 1 36 04 PM](https://github.com/user-attachments/assets/447df2ef-bf02-49bc-a86f-ad3ee843e233)
+
 
 This file was opened in Emacs.
 Emacs provided the line numbers and syntax highlighting (font locking in Emacs parlance).
