@@ -4,8 +4,14 @@
 
 # Template for making annotated bibliography in org-mode
 
-An annotated bibliography is used to summarize notes about papers being read during a research project.
+An annotated bibliography summarizes notes about papers being read during a research project.
+It is one of several methods for working with the knowledge gleaned from reading.
+
 Org-mode is an enhanced markup language that supports the writing of scientific manuscripts.
+Org-mode descended from Outline-mode. 
+It supports managing documents with a hierarchical structure.
+After folding the sections, subtrees of the document are easy to shuffle using the Meta-UP or Meta-Down keys.
+This feature eases the reorganizing of a doc.
 It was developed for use with the Emacs text editor.
 
 The summary is stored in the annote field in the BibTeX entry in the BibTeX file, like in the example below:
@@ -23,8 +29,12 @@ The top of the output PDF looks like the following:
 ![Screenshot 2024-08-17 at 1 30 54 PM](https://github.com/user-attachments/assets/eb5d5ee9-b110-4c37-b8ea-0a013a7529f4)
 
 I have also attached an Emacs configuration file (*init.el*) for working with manuscripts and annotated bibliographies in org-mode on macOS.
-This configuration includes the Vertico auto-completion stack and org-ref for managing bibliographies.
-It supports the use of pdf-tools for viewing PDFs inside of Emacs.
+This configuration includes the Vertico-Orderless-Corfu-Cape-Consult-Embark auto-completion stack, org-ref for managing bibliographies, and pdf-tools for viewing PDFs inside Emacs.
+This configuration depends on a handful of external packages.
+The *init.el* file takes 2-3 seconds to load. 
+
+I swamped the *option* and *command keys* because I use the command key for the Meta key.
+I did not include org-agenda or org-roam.
 
 ## Sources of funding
 
