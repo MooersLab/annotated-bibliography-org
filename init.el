@@ -1,6 +1,6 @@
-;; Source https://jonathanabennett.github.io/blog/2019/05/29/writing-academic-papers-with-org-mode by Jonathan Bennett
 ;; alias e29o='/Applications/Emacs29.3.app/Contents/MacOS/Emacs --init-directory ~/e29org --debug-init'
-
+;; Instead of using ~/.emacs.d, I use e29org for this configuration. Adjust to fit your needs.
+;; My bash resides in /opt/local. Adjust ptath to fit your needs.
 
 (require 'package)
   (setq package-enable-at-startup nil)
@@ -115,29 +115,29 @@ version-control t)
   (interactive)
   (load-file "~/e29org/init.el"))
 
-;;;## reload-hydras
-(defun reload-hydras ()
-  "Reload my-hydras.el. Edit the path to suite your needs."
-  (interactive)
-  (load-file "~/emacs29.3/my-hydras/my-hydras.el"))
+;; ;;;## reload-hydras
+;; (defun reload-hydras ()
+;;   "Reload my-hydras.el. Edit the path to suite your needs."
+;;   (interactive)
+;;   (load-file "~/emacs29.3/my-hydras/my-hydras.el"))
 
-;;;## reload-learning-spiral-hydras
-(defun reload-learning-spiral-hydras ()
-  "Reload learning-spiral-hydras.el. Edit the path to suite your needs."
-  (interactive)
-  (load-file "~/emacs29.3/my-hydras/learning-spiral-hydras.el"))
+;; ;;;## reload-learning-spiral-hydras
+;; (defun reload-learning-spiral-hydras ()
+;;   "Reload learning-spiral-hydras.el. Edit the path to suite your needs."
+;;   (interactive)
+;;   (load-file "~/emacs29.3/my-hydras/learning-spiral-hydras.el"))
 
-;;;## reload-talon-quiz-hydras
-;;(defun reload-talon-quiz-hydras ()
-;;  "Reload learning-spiral-hydras.el. Edit the path to suite your needs."
-;;  (interactive)
-;;  (load-file "~/emacs29.3/my-hydras/talon-quiz-hydras.el"))
+;; ;;;## reload-talon-quiz-hydras
+;; ;;(defun reload-talon-quiz-hydras ()
+;; ;;  "Reload learning-spiral-hydras.el. Edit the path to suite your needs."
+;; ;;  (interactive)
+;; ;;  (load-file "~/emacs29.3/my-hydras/talon-quiz-hydras.el"))
 
-;;;## reload-uniteai
-(defun reload-uniteai ()
-  "Reload my-uniteai.el. Edit the path to suite your needs."
-  (interactive)
-  (load-file "~/e29org/my-uniteai.el"))
+;; ;;;## reload-uniteai
+;; (defun reload-uniteai ()
+;;   "Reload my-uniteai.el. Edit the path to suite your needs."
+;;   (interactive)
+;;   (load-file "~/e29org/my-uniteai.el"))
 
 ;;;# Clean and sort list of items in region
 
