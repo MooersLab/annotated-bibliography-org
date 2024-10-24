@@ -1,8 +1,8 @@
-![Version](https://img.shields.io/static/v1?label=annotated-bibliography-org&message=0.1&color=brightcolor)
+![Version](https://img.shields.io/static/v1?label=annotated-bibliography-org&message=0.3&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
-# Template for making annotated bibliography in org-mode
+# Template for making annotated bibliography in org-mode with BibTeX
 
 ## What is this?
 An annotated bibliography summarizes notes about papers being read during a research project.
@@ -108,8 +108,9 @@ cp ~/6112MooersLabGitHubLabRepos/annotated-bibliography-org/ab0519.org ./abib$1/
 
 ## Update history
 
-| Version       | Changes                                                                                                                                                       | Date                      |
-|:----------------|:------------------------------------------------------------------------------------------------------------------------------------------|:------------------------|
-|  0.1             |   Initial commit. Added badges, funding, and update table.                                                                          | 2024 August 17     |
-| 0.2              |   Updated compile.sh to take ProjectNumber as argument. Add bash function to ease install.                    | 2024  October 1     |
- 
+| Version       | Changes                                                                                                                                                       | Date                          |
+|:----------------|:------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------- -| 
+|  0.1             |   Initial commit. Added badges, funding, and update table.                                                                          | 2024 August 17        |
+| 0.2              |   Updated compile.sh to take ProjectNumber as argument. Add bash function to ease install.                    | 2024  October 1      |
+| 0.3              |   Added to header code to add short author list, running title, date printed, and Page of N pages.              | 2024  October 24    |
+
