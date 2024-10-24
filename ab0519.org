@@ -11,6 +11,19 @@
 #+LaTeX_HEADER:\usepackage[letterpaper, total={7in, 9in}]{geometry}
 #+LaTeX_HEADER:\usepackage{datetime2}
 #+LaTeX_HEADER:\usepackage{apacite}
+
+% Edit to customize
+% Add running titles to avoid mixing up paper versions of two or more unstapled documents stored together.
+#+LaTeX_HEADER:\usepackage{fancyhdr}
+#+LaTeX_HEADER:\pagestyle{fancy}
+#+LaTeX_HEADER:\usepackage{lastpage}
+#+LaTeX_HEADER:\fancyhf{} % Clear header/footer
+#+LaTeX_HEADER:\fancyhead[L]{Student, ..., and Mooers}
+#+LaTeX_HEADER:\fancyhead[C]{Manuscript template in LaTeX, printed: \today}
+#+LaTeX_HEADER:\fancyhead[R]{\thepage\ / \pageref{LastPage}}
+#+LaTeX_HEADER:\renewcommand{\headrulewidth}{1pt} % set to 0pt to hide headrule
+
+% Edit to customize
 #+LaTeX_HEADER:\title{Annotated Bibliography for 0516Valence Electrons}
 #+LaTeX_HEADER:\author{Blaine Mooers (blaine-mooers@ouhsc.edu)\\University of Oklahoma Health Sciences Center}
 
@@ -37,7 +50,8 @@
 # #+Latex:\today}
 # #+Latex:}
 
+% enables inclusion of all entries in the *.bib file.
 #+Latex:\nocite{*}
 #+Latex:\bibliographystyle{apacannx}
-#+Latex:\bibliography{ab0519}
+#+Latex:\bibliography{ab0519.bib}
 
