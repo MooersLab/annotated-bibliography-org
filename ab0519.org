@@ -24,8 +24,30 @@
 #+LaTeX_HEADER:\renewcommand{\headrulewidth}{1pt} % set to 0pt to hide headrule
 
 % Edit to customize
-#+LaTeX_HEADER:\title{Annotated Bibliography for 0516Valence Electrons}
-#+LaTeX_HEADER:\author{Blaine Mooers (blaine-mooers@ouhsc.edu)\\University of Oklahoma Health Sciences Center}
+#+LaTeX_HEADER:\title{Annotated Bibliography for XXXXXXX}
+#+LaTeX_HEADER:\author{Blaine Mooers (blaine-mooers@ouhsc.edu)\\University of Oklahoma Health Sciences}
+
+\tableofcontents
+
+\section{Introduction}
+:Notes4usersHitTabToReveal:
+- Use C-c b to insert a citar style citation.
+- With the cursor in the citation, enter M-x mooerslab-wrap-citar-citekey-and-create-abibnote-org
+- The abibnote.org file open in a new buffer.
+- Make your additions. You are limited to LaTeX paragraph headlines.
+- Indicate the kind of reading: reference, survey, or deep. See Heard 2022, 288 - 292.
+    - Reference: extract a factiod from the paper.
+    - Survey: skim the paper and write a mini summary that lists the central hypothesis and key findings. Decide if the paper should advance to a deep read.
+    - Deep: read deeply while thinking deeply. Best done with marking up a printed copy of the paper.
+- Save this org file and close it.
+- A link to the abibnote file can be created by entering the word file followed by colon and the path to the file. You do not have to put the link inside of two square brackets for the link to open when you click on it with the left mouse button.
+- A similar link is made to the PDF file so that you can access it quickly while working on writing the A bit note file.
+- To use both links to each entry, the user will have to decide whether or not they want to retain these links upon export, or if they will want to comment them out to avoid having the links interfere with it. export to a PDF.
+- Save your work and close the file.
+- Comment out the links to the abibNote.org files when exporting to PDF.
+- Note to self in addition to modifying the function to add two more lines for the two links. I also need to modify the template to include this drawer of information about how to go about utilizing this a bib note document. I need this kind of information because my memory can fade if there's been a lapse of a month or more since I've last used one of these a bib note. One of these annotated bibliography files.
+- The links so easily added and to provide access to the org files for editing of the notes. I think that this approach is a a drawer below a let-tech section headline and that drawer will still operate correctly. This demonstrates the very nice blending of the features of org mode with let-tech.
+:END:
 
 
 # %% You'll need to change the title and author fields above to reflect your
