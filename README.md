@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
-# Template for making a classic annotated bibliography in org-mode with BibTeX
+# Template for Classic Annotated Bibliography in Org-mode with BibTeX
 
 ## What is this?
 An annotated bibliography summarizes notes about papers being read during a research project.
