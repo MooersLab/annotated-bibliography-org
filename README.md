@@ -224,7 +224,7 @@ cp ~/6112MooersLabGitHubLabRepos/annotated-bibliography-org/ab0519.org ./abib$1/
         (message "Replaced citekey, created .org file, and opened it: %s" org-file-path)))))
 ```
 
-This function replaces the citekey with the following:
+This function replaces the citekey (e.g., Schaefer2021SEQCROW) with the following:
 
 ```elisp
 #+LATEX: \subsection*{\bibentry{Schaefer2021SEQCROW}}
