@@ -99,8 +99,33 @@ cp ~/6112MooersLabGitHubLabRepos/annotated-bibliography-org/ab0519.org ./abib$1/
 4. cd project directory
 3. orgabib <projectID> to create subfolder 
 
+## Related projects
 
+Having to add notes to the note field is extremely limiting.
+The LaTeX software will strip out any white spaces between paragraphs.
+You have to go to extreme measures to enclose the paragraphs in some LaTeX code.
+You can insert equations, and you can include figures with difficulty.
 
+To ease the writing of annotations that contain
+
+- multiple paragraphs
+- big blocks of equations
+- figures
+- tables
+- code listings
+- interactive code blocks for literate programming
+
+I am developing a modular and illustrated approach to the annotated bibliography.
+In this approach, annotations are stored in Org-mode files that are imported into the final document upon compilation to PDF.
+These files can utilize either pure Org-mode syntax or LaTeX to add graphical features.
+The graphical features are very effective at stimulating the recall of a paper's content much faster than a wall of text.
+
+This modular approach is independent of the annote field.
+The annote field no longer needs to be utilized for storing the notes in global.bib file.
+This modular approach enables the reuse of note files across multiple annotated bibliographies for various writing projects.
+
+I plan to make a variant that uses tex files for use in pure LaTeX.
+This approach also supports the management of annotated bibliographies using Rmarkdown.
 
 ## Sources of funding
 
@@ -113,8 +138,7 @@ cp ~/6112MooersLabGitHubLabRepos/annotated-bibliography-org/ab0519.org ./abib$1/
 
 | Version          |  Changes                                                                                                            | Date                      |
 |:-----------------|:--------------------------------------------------------------------------------------------------------------------|:--------------------------| 
-|  0.1             |   Initial commit. Added badges, funding, and update table.                                                          | 2024 August 17            |
+|  0.1             |   Initial commit. Added badges, funding, and updated the table.                                                     | 2024 August 17            |
 | 0.2              |   Updated compile.sh to take ProjectNumber as argument. Add bash function to ease install.                          | 2024  October 1           |
 | 0.3              |   Added to header code to add short author list, running title, date printed, and Page of N pages.                  | 2024  October 24          |
-| 0.4              |   Added the Emacs Lisp function that wraps the citar citekey and includes the direct file links.                    | 2025  June 20             |
 
